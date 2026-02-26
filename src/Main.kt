@@ -26,7 +26,6 @@ fun main() {
             7 -> println("Has seleccionado la opcion 7")
             else -> println("Has ingresado una opcion invalida")
 
-
         }
 
     } while (opc != 0)
@@ -39,5 +38,5 @@ fun opcionIMC(){
     val peso = readln().toDouble();
     println("Ingrese la altura")
     val altura = readln().toDouble();
-    println(calcularIMC(peso,altura))
+    println(calcularIMC(peso = peso,altura=altura))
 }
